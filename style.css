@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.desktop1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #394F88 92.2%, #193E6B 92.4%, #394F88 100%, #394F88 100%);
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    /* margin-bottom: 100px; */
+    height: 10vh;
+    margin-bottom: 20px;
+}
+.welcome{
+    
+
+    font-family: Port Lligat Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;/* font-family: ; */
+
+}
+
+.info{
+    
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.17em;
+    /* align-items: center; */
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px 10px;
+}
+.body{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.body .left{
+    width: 60%;
+}
+.body .massage{
+    /* height: 50%; */
+    height: 50%;
+
+}
+.body .img{
+    position: absolute;
+    width: 34%;
+    height: auto;
+    left: 0px;
+    top: 255px;
+    
+    /* background: url(2468112.jpg); */
+    background-blend-mode: lighten; 
+
+ }
+.body .right{
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.body .right .login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding-left: 30px; */
+
+    width: 60%;
+    height: 84%;
+
+
+    background: linear-gradient(211.17deg, rgba(247, 254, 252, 0.36) 16.8%, rgba(84, 81, 219, 0.65) 106.82%);
+    border-radius: 50px;
+    position: relative;
+}
+.body .right .login .logo{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50%;
+}
+.body .right .login .logo h1{
+    color: #211EDE;
+}
+.body .right .login  img{
+    /* display: flex; */
+    width: 130%;
+    height: 70%;
+}
+.body .right .login form{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 250px;
+}
+.body .right .login form input{
+    /* width: 315px;
+    height: 50px; */
+    padding: 10px 30px;
+    margin: 10px 20px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 13px;
+    
+}
+.body .right .login form button{
+    padding: 9px 31px;
+    margin: 10px;    
+    border-radius: 489px;
+    outline: none;
+    border: none ;
+
+}
